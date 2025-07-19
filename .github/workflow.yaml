@@ -1,0 +1,8 @@
+name: SimpleWorkflow
+on: workflow_dispatch
+jobs:
+  new1:
+    run_on: ubuntu_latest
+    steps:
+      - name: steps1
+        run: echo "Hello This is my 1st workflow"
